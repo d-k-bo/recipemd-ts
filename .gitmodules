@@ -1,0 +1,3 @@
+[submodule "RecipeMD"]
+	path = RecipeMD
+	url = https://github.com/tstehr/RecipeMD.git

@@ -1,0 +1,10 @@
+{
+  "name": "water",
+  "type": "module",
+  "scripts": {
+    "water": "node water.js"
+  },
+  "dependencies": {
+    "recipemd": "file:.."
+  }
+}
