@@ -2,9 +2,10 @@ module.exports = {
     root: true,
     parser: '@typescript-eslint/parser',
     parserOptions: {
-        tsconfigRootDir: __dirname,
+        tsconfigRootDir: ".",
         project: './tsconfig.eslint.json',
     },
+    ignorePatterns: ["src/__tests__/*"],
     plugins: ['@typescript-eslint'],
     extends: [
         'eslint:recommended',
@@ -15,7 +16,6 @@ module.exports = {
     "rules": {
         "@typescript-eslint/no-non-null-assertion": "off",
         "@typescript-eslint/restrict-template-expressions": "off",
-        "@typescript-eslint/ban-ts-comment": ["warn", { "ts-ignore": "allow-with-description" }
-        ],
+        "@typescript-eslint/ban-ts-comment": ["warn", { "ts-ignore": "allow-with-description" }],
     },
 };
