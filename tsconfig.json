@@ -15,7 +15,6 @@
 
     "listEmittedFiles": true,
 
-    // "lib": "ES2019",
-    "target": "ES2019"
+    "target": "ES2022"
   }
 }
