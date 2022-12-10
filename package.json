@@ -1,6 +1,6 @@
 {
   "name": "recipemd",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Parser for recipes written in the RecipeMD format",
   "author": "d-k-bo",
   "license": "LGPL-3.0-or-later",
